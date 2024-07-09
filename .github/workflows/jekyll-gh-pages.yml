@@ -49,7 +49,6 @@ jobs:
 title: Redirección 301 de otras URLs a esta página 
 redirect_from:
     - /www.afilandoelhacha.com.ar/
-    - /otra/antigua/
 permalink: /actual/
 ---
     needs: build
