@@ -44,13 +44,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
-    ---
-title: Redirección 301 de otras URLs a esta página 
-redirect_from:
-    - /www.afilandoelhacha.com.ar/
-permalink: /actual/
----
     needs: build
     steps:
       - name: Deploy to GitHub Pages
