@@ -942,6 +942,32 @@ section,
   border-color: var(--accent-color);
 }
 
+<!--- Agrego boton ver fechas con html nativo---->
+
+details {
+  display: inline-block;
+}
+
+summary{
+color: var(--default-color);
+  font-weight: 400;
+  font-size: 15px;
+  display: inline-block;
+  padding: 8px 30px;
+  margin: 30px 0 0 0;
+  transition: 0.5s;
+  text-transform: uppercase;
+  border: 2px solid color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+summary:hover{
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+<!----- Fin codigo boton ver fechas---->
+
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
